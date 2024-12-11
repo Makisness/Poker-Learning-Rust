@@ -45,11 +45,11 @@ which takes a sorted vec of numbers 1-52
 
 then loops through each item and swaps it with another random item inside the vector.
 this is ideal since no new numbers are being created I can be sure that there are no duplicates,
-additionally it works with vectors of any length which is helpful for my Monte Carlo simulation used for calculating win probabilities.
+additionally the nature of this algorithm is helpful for my Monte Carlo simulation used for calculating win probabilities, primarily because it can randomize the positions of existing values in a vector.
+This means not having to do any complicated checks for duplicates or keeping track of cards removed from the deck.
 
-However, this may be less efficient since it requires the creation and shuffling of 52 items inside the vector when the
+However, this does come a slight tradeoff since it requires the creation and shuffling of 52 items inside the vector when the
 majority of poker games are played with far fewer cards.
-but I do enjoy how it somewhat resembles the real-world act of shuffling a deck of cards (sorta..)
 
 
 **Game Logic:**
