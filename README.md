@@ -18,8 +18,11 @@ each card is a u8 0-51, which corresponds to its position in a sorted deck.
 
 
 0 = Ace of Spades
+
 1  = 2 of Spades
+
 2 = 3 of Spades
+
 ...
 
 this allows the suit and rank to be revealed via an Enum that
