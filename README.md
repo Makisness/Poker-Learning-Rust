@@ -13,7 +13,8 @@ Chess has been a bit overdone, and poker seemed like it may be a bit easier to c
 
 **Cards, Hands, and Deck:**
 
-Hands and Decks are represented as a Vec<u8>
+Hands and Decks are represented as a Vec of u8s
+
 each card is a u8 0-51, which corresponds to its position in a sorted deck.
 
 
@@ -31,7 +32,7 @@ and mod 13 for the rank
 
 this is combined into a Card struct that handles this data
 although this struct is primarily used for printing to the screen as the 
-Vec<u8> is more efficient for actual game logic computations.
+Vec of u8s is more efficient for actual game logic computations.
 
 
 **Shuffle Algorithm:**
