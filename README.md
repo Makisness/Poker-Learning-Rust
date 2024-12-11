@@ -12,9 +12,9 @@ Chess has been a bit overdone, and poker seemed like it may be a bit easier to c
 -  The observer/player progresses the game by pressing "enter" to reveal each community card
 
 **Cards, Hands, and Deck:**
-
-cards, hands, and decks are Vec<u8>
+Hands and Decks are represented as a Vec<u8>
 each card is a u8 0-51, which corresponds to its position in a sorted deck.
+
 
 0 = Ace of Spades
 1  = 2 of Spades
